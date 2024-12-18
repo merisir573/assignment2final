@@ -1,4 +1,4 @@
-NOTE: I was unsure wether or not the README had to be in English or not, just in case I am writing in English.
+NOTE: I was unsure whether or not the README had to be in English or not, just in case I am writing in English.
 
 Github Link:
 https://github.com/merisir573/assignment2final
@@ -8,11 +8,11 @@ Video Link:
 
 ---My Design---
 
-My design is relatively straightforward, we have three microservices that we use the gateway to send messages to, these APIs are connected to eachother via Docker and also use a common storage within Docker.
+My design is relatively straightforward, we have three microservices that we use the gateway to send messages to, these APIs are connected to each other via Docker and also use a common storage within Docker.
 
 ---Assumptions Made---
 
-I am unsure as to wether or not I should've created different microservices rather than somehow implement the gateway directly into the midterm project. Ultimately I went with making something similar to the example provided in the PDF file.
+I am unsure as to whether or not I should've created different microservices rather than somehow implement the gateway directly into the midterm project. Ultimately I went with making something similar to the example provided in the PDF file.
 
 Aside from that no extra assumptions were made that come to mind.
 
