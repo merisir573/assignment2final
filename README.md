@@ -1,5 +1,14 @@
 NOTE: I was unsure whether or not the README had to be in English or not, just in case I am writing in English.
 
+NOTE 2: I don't believe you need to do this for the code to work, but in case you look into the code and see dependency errors, please do the following steps:
+
+cd FOLDERNAME
+
+npm install
+
+repeat for all the folders.
+
+
 Github Link:
 https://github.com/merisir573/assignment2final
 
