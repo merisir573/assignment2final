@@ -4,7 +4,7 @@ Github Link:
 https://github.com/merisir573/assignment2final
 
 Video Link:
- (NOTE: The video is send only, if it doesn't work, please send an E-Mail so I can change it to public)
+https://youtu.be/AtAeacy9-9k (NOTE: The video is send only, if it doesn't work, please send an E-Mail so I can change it to public)
 
 ---My Design---
 
