@@ -6,7 +6,7 @@ cd FOLDERNAME
 
 npm install
 
-repeat for all the folders.
+repeat for all the folders. This is caused by node_modules not being on Github as it's in .gitignore and trying to manually add the folder yields no results due to the sheer amount of files.
 
 
 Github Link:
