@@ -1,0 +1,42 @@
+version: '3'
+services:
+  insert-listing:
+    build:
+      context: ./insert-listing
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    volumes:
+      - shared-data:/merisir/src/app/data
+
+  book-stay:
+    build:
+      context: ./book-stay
+      dockerfile: Dockerfile
+    ports:
+      - "3003:3003"
+    volumes:
+      - shared-data:/merisir/src/app/data
+
+  query-listings:
+    build:
+      context: ./query-listings
+      dockerfile: Dockerfile
+    ports:
+      - "3002:3002"
+    volumes:
+      - shared-data:/merisir/src/app/data
+
+  gateway:
+    build:
+      context: ./gateway
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - insert-listing
+      - book-stay
+      - query-listings
+
+volumes:
+  shared-data:
